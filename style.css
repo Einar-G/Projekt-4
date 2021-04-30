@@ -18,7 +18,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to right, #ffefba, #ffffff);
+  background: linear-gradient(to right, #fae8af, #dfe2ca);
 }
 
 nav a {
@@ -55,9 +55,27 @@ article {
   color: rgba(19, 18, 18, 0.856);
 }
 
-.Rubrik {
+.rubrik {
   margin-bottom: 2vh;
   font-weight: bolder;
   font-size: 2.7vh;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  bottom: 0%;
+  width: 100%;
+  background: linear-gradient(to right, #16222a, #3a6073);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 11vh;
+  margin-top: auto;
+  color: rgb(190, 171, 106);
+  font-family: "Penumbra HalfSerif Std";
+  font-size: 1.4vh;
+}
+
+.hidden {
+  display: none;
 }
