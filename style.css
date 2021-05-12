@@ -117,13 +117,11 @@ iframe {
 }
 
 img {
-  height: 5vh;
+  height: 4vh;
   margin-left: 1vw;
 }
 
-.imageContainer1 {
+.imageContainer {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  background-image: url();
 }
